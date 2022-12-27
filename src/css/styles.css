@@ -80,7 +80,7 @@ body{
     border-color: var(--color-btn);
 }
 
-@media(max-width:376px){
+@media(max-width:426px){
     .container{
         background: url(../images/bg-mobile.svg) center center no-repeat;
         padding: 30px 40px;
