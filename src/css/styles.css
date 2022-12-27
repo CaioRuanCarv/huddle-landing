@@ -80,7 +80,24 @@ body{
     border-color: var(--color-btn);
 }
 
-@media(max-width:426px){
+@media(max-width:1090px){
+    .about{
+        padding: 70px 20px;
+    }
+    .about h3{
+        font-size: 25px;
+        
+    }
+    .about p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .about a{
+        font-size: 12px;
+        padding: 10px 40px;
+}
+}
+@media(max-width:430px){
     .container{
         background: url(../images/bg-mobile.svg) center center no-repeat;
         padding: 30px 40px;
@@ -108,8 +125,6 @@ body{
         text-align: justify;
     }
     .about a{
-        color:hsl(228, 45%, 44%) ;
-        background-color: white;
         font-size: 18px;
         padding: 10px 100px;
     }
